@@ -21,7 +21,7 @@ public class Main {
 		
 		// 합계 출력하기
 		System.out.println("합계 : " + sum);
-		
+		System.out.println("첫 프로젝트");
 		
 	}
 
