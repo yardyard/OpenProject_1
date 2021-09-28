@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
 
@@ -8,9 +9,12 @@ public class Main {
 		int firstNo, secondNo;
 		int sum;
 		
-		// 두 수 입력하기
-		firstNo = 10;
-		secondNo = 20;
+		// 두 수 입력하기 : 라이브러리 사용해서 입력하기
+		Scanner scan = new Scanner(System.in);
+		System.out.print("첫수 : ");
+		firstNo = scan.nextInt();
+		System.out.print("두번쨰 수 : ");
+		secondNo = scan.nextInt();
 		
 		// 합계내기(C = A+B)
 		sum = firstNo + secondNo;
